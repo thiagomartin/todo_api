@@ -32,7 +32,19 @@ class TasksController < ApplicationController
     @task.destroy
     head :no_content
   end
+  def complete
+    @task = Task.find(params[:id])
+    if @task.update(complete: true)
+      render json: @task
+    else
+      render json: @task.errors, status: :unprocessable_entity
+    end
+  end
 
+  def completed
+    @completed_tasks = Task.where(completed: true)
+    render json: @completed_tasks
+  end
   private
 
   def set_task
