@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="RM-241.15989.113">
+    <data-source name="todo_api: development" uuid="f22fc19b-1aa7-47f2-9e9a-d12784748012">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <user-name>postgres</user-name>
+      <schema-mapping />
+    </data-source>
+    <data-source name="todo_api: test" uuid="de581e11-8bc2-48ca-a9d2-e2bf597ffb63">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <schema-mapping />
+    </data-source>
+    <data-source name="todo_api: production" uuid="43382374-f43a-4030-a229-c16291ee981d">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="POSTGRES" />
+      <user-name>todo_api</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
